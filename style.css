@@ -4,7 +4,8 @@
      align-items: center;
      height: 100vh;
      margin: 0;
-     font-family: Arial, sans-serif;
+     font-family: "Zen Dots", sans-serif;
+
  }
 
  .calculator {
@@ -19,7 +20,7 @@
  .display {
      background-color: #222;
      color: white;
-     font-size: 2em;
+     font-size: 1.6em;
      padding: 10px;
      text-align: right;
      margin-bottom: 10px;
@@ -40,9 +41,10 @@
      padding: 15px;
      text-align: center;
      text-decoration: none;
-     font-size: 18px;
+     font-size: 0.9em;
      cursor: pointer;
      border-radius: 5px;
+     font-family: "Zen Dots", sans-serif;
  }
 
  button:hover {
