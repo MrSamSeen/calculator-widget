@@ -37,7 +37,7 @@ function clearDisplay() {
 function calculate() {
     try {
         currentValue = eval(currentValue).toString();
-        shouldClearDisplay = true;
+        //shouldClearDisplay = true;
         lastOperator = '';
     } catch (error) {
         currentValue = 'Error';
